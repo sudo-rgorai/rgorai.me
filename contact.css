@@ -1,0 +1,153 @@
+body
+{
+    text-align: center;
+    background-color: #9399ff;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    animation: fade-in 2.5s ease;
+}
+
+
+.contact-me
+{
+    margin-top: 75px;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.facebook
+{
+    position: absolute;
+    left: 5vw;
+    width: 15vw;
+    top: 15vh;
+    color: #fff;
+    text-decoration: none;
+    animation: fade-in 3.5s ease;
+}
+
+.instagram
+{
+    position: absolute;
+    left: 5vw;
+    width: 15vw;
+    top: 40vh;
+    color: #fff;
+    text-decoration: none;
+    animation: fade-in 3.5s ease;
+}
+
+.github
+{
+    position: absolute;
+    right: 5vw;
+    width: 15vw;
+    top: 15vh;
+    color: #fff;
+    text-decoration: none;
+    animation: fade-in 3.5s ease;
+}
+
+.link
+{
+    margin: 0 2% 0 2%;
+    color: #fff;
+    text-decoration: none;
+    opacity: 1;
+}
+
+.link:hover
+{
+    transition: 1s ease-in-out;
+    font-size: 1.5rem;
+}
+
+.myButton 
+{
+	background-color:transparent;
+	border-radius:8px;
+	border:1px solid #fff;
+	display:inline-block;
+	color:#fff;
+	font-family:Arial;
+	font-size:21px;
+	padding:12px 42px;
+	text-decoration:none;
+}
+
+.myButton:hover
+{
+    box-shadow:inset 0px 0px 0px 0px #dcecfb;
+    transition: 0.3s ease-in;
+    background-color: #4d4c7d;
+    color: #ffffff;
+}
+
+.quora
+{
+    position: absolute;
+    right: 5vw;
+    width: 15vw;
+    top: 40vh;
+    color: #fff;
+    color: #fff;
+    text-decoration: none;
+    animation: fade-in 3.5s ease;
+}
+
+.social
+{
+    position: absolute;
+    bottom: 0;
+    left: 50vw;
+    transform: translateX(-50%);
+    width: 40vw;
+    z-index: -1;
+    opacity: 1;
+}
+
+
+.topnav 
+{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    background-color: #9399ff;
+    border-bottom: 1px solid #fff;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    
+}
+
+.topnav:hover
+{
+    transition: 1s ease-in;
+    background-color: #000;
+}
+
+.topnav:hover .link
+{
+    transition: 1s ease-in;
+    color: #fff;
+}
+
+.facebook:hover, .instagram:hover, .github:hover, .quora:hover
+{
+    color: #d2c6b2;
+}
+
+@keyframes fade-in
+{
+    from
+    {
+        opacity: 0;
+        height: 1rem;
+    }
+    to
+    {
+        opacity: 1;
+        height: 10rem;
+    }
+}
