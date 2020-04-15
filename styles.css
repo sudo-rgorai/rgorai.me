@@ -92,7 +92,7 @@ table
 
 .link:hover
 {
-    transition: 1s ease-in-out;
+    transition: 0.3s ease-in-out;
     font-size: 1.5rem;
 }
 
@@ -144,7 +144,7 @@ table
 
 .topnav:hover
 {
-    transition: 0.5s ease-in;
+    transition: 0.3s ease-in;
     background-color: #000;
 }
 

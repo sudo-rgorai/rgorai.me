@@ -53,7 +53,7 @@ p
 
 .link:hover
 {
-    transition: 1s ease-in-out;
+    transition: 0.3s ease-in-out;
     font-size: 1.5rem;
 }
 
@@ -76,13 +76,13 @@ p
 
 .topnav:hover
 {
-    transition: 1s ease-in;
+    transition: 0.3s ease-in;
     background-color: #000;
 }
 
 .topnav:hover .link
 {
-    transition: 1s ease-in;
+    transition: 0.3s ease-in;
     color: #fff;
 }
 
