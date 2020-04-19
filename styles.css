@@ -165,3 +165,67 @@ table
         height: 10rem;
     }
 }
+
+@media screen and (max-width: 902px)
+{
+    h1
+    {
+        font-size: 4rem;
+    }
+
+    .profile
+    {
+        height: 4rem;
+        animation: fade-in 2.5s ease-in;
+    }
+
+
+    @keyframes fade-in
+{
+    from
+    {
+        opacity: 0;
+        height: 1rem;
+    }
+    to
+    {
+        opacity: 1;
+        height: 4rem;
+    }
+}
+}
+
+
+@media screen and (max-width: 513px)
+{
+    h1
+    {
+        font-size: 3rem;
+    }
+
+    h3
+    {
+        font-size: 1rem;
+    }
+
+    .profile
+    {
+        height: 3rem;
+        animation: fade-in 2.5s ease-in;
+    }
+
+
+    @keyframes fade-in
+{
+    from
+    {
+        opacity: 0;
+        height: 1rem;
+    }
+    to
+    {
+        opacity: 1;
+        height: 3rem;
+    }
+}
+}
