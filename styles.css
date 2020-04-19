@@ -101,7 +101,7 @@ table
 {
     height: 10rem;
     border-radius: 50%;
-    animation: fade-in 2.5s ease-in;
+    animation: flip 1s ease-in;
 }
 
 .profile:hover
@@ -163,6 +163,23 @@ table
     {
         opacity: 1;
         height: 10rem;
+    }
+}
+
+
+@keyframes flip
+{
+    0%
+    {
+        transform: rotateY(-90deg);
+    }
+    50%
+    {
+        transform: rotateY(-90deg);
+    }
+    100%
+    {
+        transform: rotateY(0deg);
     }
 }
 
