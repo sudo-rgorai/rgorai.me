@@ -19,7 +19,7 @@ h1
 {
     font-family: 'Alex Brush', cursive;
     font-weight: normal;
-    font-size: 7rem;
+    font-size: 8rem;
     margin-top: 0;
     margin-bottom: 0;
     padding-top: 5%;
@@ -99,7 +99,7 @@ table
 
 .profile
 {
-    height: 10rem;
+    height: 7rem;
     border-radius: 50%;
     animation: flip 1s ease-in;
 }
@@ -107,7 +107,7 @@ table
 .profile:hover
 {
     transition: 0.3s ease-in;
-    height: 11rem;  
+    height: 8rem;  
 }
 
 .right
