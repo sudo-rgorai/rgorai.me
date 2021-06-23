@@ -253,14 +253,9 @@ function animate() {
 
   renderer.render(scene, camera);
 }
-// document
-//   .getElementById("bg")
-//   .addEventListener(
-//     "load",
-//     (document.getElementById("loader_bg").style.display = "none")
-//   );
 
 animate();
+
 setTimeout(() => {
   document.getElementById('loader_bg').style.display = "none";
 }, 3000)
