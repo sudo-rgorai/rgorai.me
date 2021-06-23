@@ -1,51 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="images/sudo-rgorai.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rahul Gorai</title>
-    <link rel="icon" href="images/favicon.ico">
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Alex+Brush&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Caveat|Montserrat&display=swap" rel="stylesheet">
-</head>
-<body>
-
-    <!-- Me -->
-    
-    <div class="head-intro">
-        <div class="topnav">
-            <a class="link" href="">Home</a>
-            <a class="link" href="me.html">Me</a>
-            <a class="link" href="About.html">About</a>
-            <a class="link" href="contact.html">Contact</a>
-          </div>
-          
-          <div class="intro-text">
-            <table>
-                <tr>
-                    <td class="td-hr">
-                        <hr class="intro-hr">
-                        <hr class="intro-hr right wid-66">
-                        <hr class="intro-hr right wid-33">
-                    </td>
-                    <td class="td-hr"><img src="images/Me.jpg" class="profile"></td>
-                    <td class="td-hr">
-                        <hr class="intro-hr left">
-                        <hr class="intro-hr left wid-66">
-                        <hr class="intro-hr left wid-33">
-                    </td>
-                </tr> 
-            </table>
-            <!-- <hr class="intro-hr"> -->
-            <h1>Hi there!</h1>
-            <h3>I'm Rahul Gorai.</h3>
-            <h3>1st year undergraduate at IIT Kharagpur.</h3>
-            <hr class="intro-hr">
-          </div>
-          
-          <img src="images/intro2.jpg" class="intro">
-        
+    <script
+      src="https://kit.fontawesome.com/3441473561.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="loader_bg" id="loader_bg">
+      <div class="loader"></div>
     </div>
-</body>
+    <canvas id="bg"></canvas>
+    <main id="main">
+      <header>
+        <h1>Hi there!</h1>
+        <p>i'm rAHul GorAi</p>
+      </header>
+
+      <blockquote id="first">
+        <p>I am a third year undergraduate from IIT Kharagpur.</p>
+      </blockquote>
+
+      <blockquote id="second">
+        <!-- <h2>About me</h2> -->
+        <p>
+          I have a deep-rooted passion for problem-solving, general-purpose
+          programming and mathematics. I also have a great affinity for open
+          source software and am always on the lookout for good projects to
+          contribute to. I enjoy web development and like exploring full stack
+          solutions.
+        </p>
+      </blockquote>
+
+      <blockquote id="third">
+        <h2>Tech i'm familiar with</h2>
+        <p>
+          JavaScript
+          <br />
+          <br />
+          Python
+          <br />
+          <br />
+          C/C++
+          <br />
+          <br />
+          Go
+          <br />
+          <br />
+          Dart
+          <br />
+          <br />
+          Flask
+          <br />
+          <br />
+          Node.js
+          <br />
+          <br />
+          React
+          <br />
+          <br />
+          Vue
+          <br />
+          <br />
+          Flutter
+        </p>
+      </blockquote>
+
+      <section id="fourth" class="left">
+        <h2>projects</h2>
+
+        <h3>stockplot</h3>
+        <p>An online platform to plot stock market indicators.</p>
+
+        <h3>cARe</h3>
+        <p>
+          A decentralized app built on Ethereum. Aims at creating an interface
+          for people to report and track children who have been
+          abandoned/orphaned. This is to ensure that these children do not get
+          exploited for cheap labour or fall into the trap of trafficking.
+        </p>
+
+        <h3>darksite</h3>
+        <p>
+          A chrome extension that customizes your new tab to a minimal dark
+          theme.
+        </p>
+
+        <h3>ikshana</h3>
+        <p>Demo website for CE20101 project.</p>
+      </section>
+
+      <blockquote id="fifth">
+        <p>
+          If you want to accomplish something in the world, idealism is not
+          enough - you need to choose a method that works to achieve the goal.
+          <br />
+          <br />
+          -Richard Stallman
+        </p>
+      </blockquote>
+
+      <section id="sixth" class="left">
+        <h2>experience</h2>
+
+        <h3>kharagpur open source society</h3>
+        <p>Executive Head</p>
+        <h3>quant club</h3>
+        <p>Administrative Head and Senior Quant Researcher</p>
+        <h3>Autonomous Ground Vehicle Research Group</h3>
+        <p>Software and AI Team Member</p>
+      </section>
+
+      <blockquote id="seventh">
+        <p>let's get in touch</p>
+        <a
+          class="fab fa-facebook fa-4x facebook"
+          href="https://www.facebook.com/rahul.gorai.526"
+          target="_blank"
+        ></a>
+        <a
+          class="fab fa-instagram fa-4x instagram"
+          href="https://www.instagram.com/irrational_constant/"
+          target="_blank"
+        ></a>
+        <a
+          class="fab fa-github fa-4x github"
+          href="https://github.com/sudo-rgorai"
+          target="_blank"
+        ></a>
+        <a
+          class="fab fa-quora fa-4x quora"
+          href="https://www.quora.com/profile/Rahul-Gorai-24"
+          target="_blank"
+        ></a>
+      </blockquote>
+    </main>
+    <script type="module" src="/main.js"></script>
+  </body>
 </html>
